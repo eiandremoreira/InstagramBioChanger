@@ -35,6 +35,7 @@ async function bio () {
 		// Filtrando a Pesquisa para o primeiro resultado
 		let current = result[0].current;
 
+		// Obtendo a data em que a mudança foi feita
 		const data = new Date();
 		let data_display = moment(data);
 		data_display = moment.locale('pt-br');
